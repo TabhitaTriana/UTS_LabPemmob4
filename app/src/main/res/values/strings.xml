@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UTSLabPemmob</string>
+    <string name="title">Wheater</string>
+    <string name="search">Search for a city or airport</string>
+    <string name="loc">My Location</string>
+    <string name="medan">Medan</string>
+    <string name="jakarta">Jakarta</string>
+    <string name="bali">Bali</string>
+    <string name="bengkulu">Bengkulu</string>
+    <string name="cloudy">Cloudy</string>
+    <string name="mostly_cloudy">Mostly Cloudy</string>
+    <string name="mostly_sunny">Mostly Sunny</string>
+</resources>
