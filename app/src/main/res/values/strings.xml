@@ -10,4 +10,15 @@
     <string name="cloudy">Cloudy</string>
     <string name="mostly_cloudy">Mostly Cloudy</string>
     <string name="mostly_sunny">Mostly Sunny</string>
+    <string name="tempMdn">31°</string>
+    <string name="tempJkt">30°</string>
+    <string name="tempBali">24°</string>
+    <string name="tempBgkl">29°</string>
+    <string name="HltempMdn">H: 32° L: 24°</string>
+    <string name="HltempJkt">H: 33° L: 25°</string>
+    <string name="HltempBali">H: 28° L: 20°</string>
+    <string name="HltempBgkl">H: 31° L: 24°</string>
+    <string name="timeJkt">05.13pm</string>
+    <string name="timeBali">05.13pm</string>
+    <string name="timeBgkl">05.13pm</string>
 </resources>
