@@ -10,6 +10,7 @@
     <string name="cloudy">Cloudy</string>
     <string name="mostly_cloudy">Mostly Cloudy</string>
     <string name="mostly_sunny">Mostly Sunny</string>
+    <string name="cloudy">Cloudy</string>
     <string name="tempMdn">31°</string>
     <string name="tempJkt">30°</string>
     <string name="tempBali">24°</string>
