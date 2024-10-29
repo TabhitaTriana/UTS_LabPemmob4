@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -12,7 +13,7 @@
         android:text="@string/title"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:textSize="32dp"
+        android:textSize="32sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginStart="32dp"
@@ -21,7 +22,7 @@
     <EditText
         android:id="@+id/evSearchBar"
         android:layout_width="0dp"
-        android:layout_height="30dp"
+        android:layout_height="48dp"
         android:background="@drawable/stroke"
         android:hint="@string/search"
         android:paddingStart="16dp"
@@ -58,9 +59,7 @@
             android:layout_height="wrap_content"
             android:text="@string/loc"
             android:textColor="@color/white"
-            android:textSize="24dp"
-            android:textStyle="bold" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="24sp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"/>
         <TextView
@@ -69,10 +68,8 @@
             android:layout_height="wrap_content"
             android:text="@string/medan"
             android:textColor="@color/white"
-            android:textSize="12dp"
+            android:textSize="12sp"
             android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/MyLoc"
             android:layout_marginStart="16dp"
             android:layout_marginTop="40dp"/>
 
@@ -82,10 +79,8 @@
             android:layout_height="wrap_content"
             android:text="@string/cloudy"
             android:textColor="@color/text_tertiary"
-            android:textSize="12dp"
+            android:textSize="12sp"
             android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/MyLoc"
             android:layout_marginStart="16dp"
             android:layout_marginTop="100dp"/>
 
@@ -93,26 +88,22 @@
             android:id="@+id/tempInfo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="248dp"
+            android:layout_marginStart="230dp"
             android:text="@string/tempMdn"
             android:textColor="@color/white"
-            android:textSize="56dp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartof="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="52sp"
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/HlInfo1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="260dp"
+            android:layout_marginStart="230dp"
             android:layout_marginTop="100dp"
             android:text="@string/HltempMdn"
             android:textColor="@color/text_tertiary"
-            android:textSize="12dp"
-            android:textStyle="normal"
-            app:layout_constraintStart_toStartof="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="12sp"
+            android:textStyle="normal"/>
 
     </androidx.cardview.widget.CardView>
 
@@ -140,9 +131,8 @@
             android:layout_height="wrap_content"
             android:text="@string/jakarta"
             android:textColor="@color/white"
-            android:textSize="24dp"
-            android:textStyle="bold" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="24sp"
+            android:textStyle="bold"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"/>
         <TextView
@@ -151,10 +141,8 @@
             android:layout_height="wrap_content"
             android:text="@string/timeJkt"
             android:textColor="@color/white"
-            android:textSize="12dp"
+            android:textSize="12sp"
             android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/MyLoc"
             android:layout_marginStart="16dp"
             android:layout_marginTop="40dp"/>
 
@@ -164,10 +152,8 @@
             android:layout_height="wrap_content"
             android:text="@string/mostly_cloudy"
             android:textColor="@color/text_tertiary"
-            android:textSize="12dp"
+            android:textSize="12sp"
             android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/Timejkt"
             android:layout_marginStart="16dp"
             android:layout_marginTop="100dp"/>
 
@@ -175,26 +161,22 @@
             android:id="@+id/tempInfo2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="248dp"
+            android:layout_marginStart="230dp"
             android:text="@string/tempJkt"
             android:textColor="@color/white"
-            android:textSize="56dp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartof="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="52sp"
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/HlInfo1"
+            android:id="@+id/HlInfo2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="260dp"
+            android:layout_marginStart="230dp"
             android:layout_marginTop="100dp"
             android:text="@string/HltempJkt"
             android:textColor="@color/text_tertiary"
-            android:textSize="12dp"
-            android:textStyle="normal"
-            app:layout_constraintStart_toStartof="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="12sp"
+            android:textStyle="normal" />
 
     </androidx.cardview.widget.CardView>
 
@@ -222,9 +204,8 @@
             android:layout_height="wrap_content"
             android:text="@string/bali"
             android:textColor="@color/white"
-            android:textSize="24dp"
-            android:textStyle="bold" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="24sp"
+            android:textStyle="bold"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"/>
         <TextView
@@ -233,50 +214,42 @@
             android:layout_height="wrap_content"
             android:text="@string/timeJkt"
             android:textColor="@color/white"
-            android:textSize="12dp"
+            android:textSize="12sp"
             android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/MyLoc"
             android:layout_marginStart="16dp"
             android:layout_marginTop="40dp"/>
 
         <TextView
-            android:id="@+id/wheaterInfo2"
+            android:id="@+id/wheaterInfo3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
             android:layout_marginTop="100dp"
             android:text="@string/mostly_sunny"
             android:textColor="@color/white"
-            android:textSize="12dp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/Timejkt" />
+            android:textSize="12sp"
+            android:textStyle="bold"/>
 
         <TextView
             android:id="@+id/tempInfo3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="248dp"
+            android:layout_marginStart="230dp"
             android:text="@string/tempBali"
             android:textColor="@color/white"
-            android:textSize="56dp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartof="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="52sp"
+            android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/HlInfo1"
+            android:id="@+id/HlInfo3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="260dp"
+            android:layout_marginStart="230dp"
             android:layout_marginTop="100dp"
             android:text="@string/HltempBali"
             android:textColor="@color/white"
-            android:textSize="12dp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartof="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="12sp"
+            android:textStyle="bold"/>
 
     </androidx.cardview.widget.CardView>
 
@@ -304,21 +277,18 @@
             android:layout_height="wrap_content"
             android:text="@string/bengkulu"
             android:textColor="@color/white"
-            android:textSize="24dp"
-            android:textStyle="bold" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="24sp"
+            android:textStyle="bold"
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"/>
         <TextView
-            android:id="@+id/timeBali"
+            android:id="@+id/timeBengkulu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/timeBgkl"
             android:textColor="@color/white"
-            android:textSize="12dp"
+            android:textSize="12sp"
             android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/MyLoc"
             android:layout_marginStart="16dp"
             android:layout_marginTop="40dp"/>
 
@@ -330,35 +300,29 @@
             android:layout_marginTop="100dp"
             android:text="@string/mostly_cloudy"
             android:textColor="@color/text_tertiary"
-            android:textSize="12dp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@id/Bali" />
+            android:textSize="12sp"
+            android:textStyle="normal" />
 
         <TextView
             android:id="@+id/tempInfo4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="248dp"
+            android:layout_marginStart="230dp"
             android:text="@string/tempBgkl"
             android:textColor="@color/white"
-            android:textSize="56dp"
-            android:textStyle="bold"
-            app:layout_constraintStart_toStartof="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="52sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/HlInfo4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="260dp"
+            android:layout_marginStart="230dp"
             android:layout_marginTop="100dp"
             android:text="@string/HltempBgkl"
             android:textColor="@color/text_tertiary"
-            android:textSize="12dp"
-            android:textStyle="normal"
-            app:layout_constraintStart_toStartof="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:textSize="12sp"
+            android:textStyle="normal" />
 
     </androidx.cardview.widget.CardView>
 
